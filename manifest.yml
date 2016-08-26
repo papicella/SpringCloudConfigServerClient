@@ -1,0 +1,11 @@
+---
+instances: 1
+memory: 512M
+applications:
+  - name: config-server-client
+    host: configserver-demo-app-pas
+    path: ./target/springcloudconfigserverclient-0.0.1-SNAPSHOT.jar
+    services:
+      - config-server-pas
+    env:
+      SPRING_PROFILES_ACTIVE: dev
