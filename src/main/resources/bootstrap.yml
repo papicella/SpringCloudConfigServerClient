@@ -1,6 +1,9 @@
 spring:
   application:
     name: configserver_demo_app
-  cloud:
-    config:
-      uri: https://github.com/papicella/PasApplesConfig
+
+security:
+  basic:
+    enabled: false
+
+
