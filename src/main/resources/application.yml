@@ -6,6 +6,7 @@ security:
   basic:
     enabled: false
 
+# turn off security for management
 management:
   security:
     enabled: false
